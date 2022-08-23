@@ -37,14 +37,15 @@ img {
     display: block;
 }
 
-* {
+a {
     text-decoration: none;
 }
 
-* {
+ul{
     list-style: none;
 }
-.logo-link {
+.logo-link,
+.logotip-footer {
     color:var(--logo-color);
 }
 .logo-header {
@@ -81,9 +82,8 @@ img {
 }
 .header-top{
     background-color: var(--secondary-text-color);
-    width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
+    
+   
 }
 
 
@@ -114,7 +114,8 @@ img {
 
 }
 .logo-link,
-.logo-header {
+.logo-header,
+.logotip-footer {
     font-family: var(--secondary-font);
 font-weight: 700;
     font-size: 26px;
@@ -145,7 +146,7 @@ font-weight: 700;
     
 
     letter-spacing: 0.03em;
-    background: var(--background-color);
+    
 }
 .portfolio-text{
     background-color: var(--secondary-text-color);
@@ -175,8 +176,7 @@ font-weight: 700;
     background-color: #2F303A;
     padding-top: 200px;
     padding-bottom: 200px;
-    width: 1600px;
-        height: 600px;
+   
         margin-left: auto;
         margin-right: auto;
 }
@@ -286,6 +286,7 @@ font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 .description{
     color: var(--primary-text);
@@ -300,8 +301,9 @@ font-weight: 700;
     margin-top: 50px;
 }
 
-.main-content{
-    padding-top: 118px;
+
+.content-top-section{
+    padding-top: 0px;
 }
 
 .main-content{
@@ -313,18 +315,14 @@ font-weight: 700;
         letter-spacing: 0.03em;
 }
 
-.container-photo-team{
-    display: flex;
-    column-gap: 30px;
-    
-}
 
    
 .name{
-    padding-top: 30px;
+   margin-top: 30px;
 }
 .job-title{
    margin-top: 10px;
+   margin-bottom: 30px;
 }
 
 .team{
@@ -332,14 +330,11 @@ font-weight: 700;
    
     padding-bottom: 50px;
 }
-.container-photo-team{
-    background-color: var(--background);
-    
-}
+
 
 .team{
     color: var(--color-dark);
-    font-weight: 700;
+    
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
@@ -504,17 +499,8 @@ letter-spacing: 0.03em;
 }
 
 
-.text-section{
-padding-left: 24px;
-padding-bottom: 4px;
-padding-right: 24px;
-padding-top: 20px;
-}
-.text-body{
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 20px;
-}
+
+
 
 
 .photo-container-section{
@@ -522,7 +508,12 @@ padding-top: 20px;
     flex-wrap: wrap;
     column-gap: 30px;
 }
+.text-section{
+    margin-bottom: 4px;
+}
 .container-heroi{
+   
+        padding: 20px 24px;
     border-top: 0px;
     border-left: 1px solid var(--border-solid);
     border-right: 1px solid var(--border-solid);
