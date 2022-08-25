@@ -305,6 +305,9 @@ font-weight: 700;
 .content-top-section{
     padding-top: 0px;
 }
+.section-body-content{
+    padding-top: 0px;
+}
 
 .main-content{
     color: var(--color-dark);
